@@ -69,7 +69,10 @@ show master status;
 5. slave从库实现主从复制
 
 ![image](https://raw.githubusercontent.com/Jaki0615/PIC/master/copy3.png)
->master_log_file和mater_log_pos从哪里知道的呢？
-* 上面介绍过 sql线程更新relay-log.info：select * from mysql.slave_relay_log_info
+```
+master_log_file和mater_log_pos从哪里知道的呢？
+上面介绍过 sql线程更新relay-log.info：
+select * from mysql.slave_relay_log_info
+```
 6. 验证主从复制是否成功
 ![image](https://raw.githubusercontent.com/Jaki0615/PIC/master/copy4.png)
