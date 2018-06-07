@@ -3,6 +3,9 @@ title: mysql慢日志slow-log
 date: 2018-06-07 16:34:11
 tags: 慢日志 slow-log
 ---
+
+OS:liunx  mysql：5.7
+
 # 一常用相关参数
 ```
 #查看慢日志相关参数
